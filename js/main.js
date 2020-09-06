@@ -20,7 +20,7 @@ function spawnUfo(event) {
 hivatkozást átadja a ufo változónak*/
   let ufo = document.createElement("img");
   /* Változtatja az <img> tag egyik attribútumár: src-nek beállítja a ufo.gif-et:*/
-  ufo.src = "/img/ufo.gif";
+  ufo.src = "img/ufo.gif";
   /* gyerekként hozzáadja a <body>-hoz a ufo.gif-et */
   document.body.appendChild(ufo);
   /* Cél, hogy oda tegye le a lovat ahova kattintunk, vagyis a ló pozíciója
@@ -102,7 +102,7 @@ vagyis ne takarja ki az alatta lévő ufo-t */
   bumm.style.pointerEvents = "none";
 
 /* A robbanás hangja */
-let blastsound = new Audio("/sound/exp.mp3");
+let blastsound = new Audio("sound/exp.mp3");
 blastsound.play();
 
  /* setTimeout-tal oldja meg hogy a robbanások eltűnjenek.
