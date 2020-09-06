@@ -84,7 +84,7 @@ document.querySelector("#numberDiv").innerHTML=numberOfExplodedUfos;
 azt higgye, hogy 2 egymáshoz közeli robbanás két különböző
 kép és ezért ne kimitálja csak az egyikrea a megjelenítést */
 
-  bumm.src = "/img/explosion.webp?a="+Math.random();
+  bumm.src = "img/explosion.webp?a="+Math.random();
   document.body.appendChild(bumm);
   bumm.style.position = "absolute";
 
