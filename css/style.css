@@ -1,0 +1,29 @@
+body {
+  background-image:url("/img/space.jpg");
+  /* Elrejti a görgetősávot: */
+  overflow: hidden;
+}
+
+/*Ezzel gátolja meg, hogy a lovatakat véletlenül "felemeljük"
+az egér kattintással*/
+
+img {
+    user-drag: none;
+    -webkit-user-drag: none;
+    width:20%;
+   /*  Ez azért kell, hogy ne tudjuk kijelölni a képeket: */
+   user-select: none;
+   -webkit-user-select: none;
+  }
+
+  p{
+    color: white;
+    display: inline;
+    font-size: 150%;
+  }
+
+  div{
+    color: white;
+    display: inline;
+    font-size: 150%;
+  }
